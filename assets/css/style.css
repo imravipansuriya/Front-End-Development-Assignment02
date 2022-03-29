@@ -1,0 +1,23 @@
+.an_ordered_list table td:nth-child(2) ol li {
+    list-style: upper-roman;
+}
+.an_ordered_list table td:nth-child(3) ol li{
+    list-style: lower-roman;
+}
+.an_ordered_list table td:nth-child(4) ol li{
+    list-style: upper-alpha;
+}
+.an_ordered_list table td:nth-child(5) ol li{
+    list-style: lower-alpha;
+}
+.an_unordered_list table td:nth-child(2) ul li {
+    list-style: square;
+}
+.an_unordered_list table td:nth-child(3) ul li{
+    list-style: circle;
+}
+.media_elements tbody tr td img{
+    width: 90px;
+    height: 50px;
+    object-fit: contain;
+}
