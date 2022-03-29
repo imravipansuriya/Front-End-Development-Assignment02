@@ -1,3 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+ 
+
+button {
+    border-radius: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* Problem 2 */
 .an_ordered_list table td:nth-child(2) ol li {
     list-style: upper-roman;
 }
@@ -21,3 +46,167 @@
     height: 50px;
     object-fit: contain;
 }
+
+/* Problem 2 End */
+
+/* Problem 3 */
+.product_page_wrp > h3 {
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+.product_details small {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 14px;
+}
+
+.product_image {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin: 20px 30px;
+}
+
+.product_image img {
+    width: 100%;
+}
+ul.stars {
+    padding: 0;
+}
+ul.stars li {
+    display: inline-block;
+}
+
+.price_offer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price_offer p {
+    font-size: 16px;
+    font-weight: 700;
+}
+p.actual_price {
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #565656;
+    font-weight: 600;
+}
+p.offer {
+    font-weight: 700;
+    color: #099300;
+}
+
+.product_detail p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product_variant {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_color {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_color .variant_title h5, .variant_title h5, .variant_value p, .price_offer p{
+    margin-bottom: 0;
+    font-size: 15px;
+      margin-top: 10px;
+}
+.radio_cheack label {
+    font-size: 15px;
+}
+.quantity_title h5{
+    margin: 0;
+}
+.product_availability {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.product_variant>div {
+    max-width: 200px;
+}
+
+.product_availability>div {
+    width: 50%;
+    text-align: left;
+}
+
+.product_color>div {
+    width: 50%;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    max-width: 130px;
+    justify-content: space-between;
+}
+
+.product_size {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_size .product_size_title {
+    width: 30%;
+}
+
+.product_size_value {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.radio_cheack {
+    display: flex;
+    align-items: center;
+}
+
+.product_size .product_size_value {
+    width: 70%;
+}
+
+.radio_cheack input {
+    margin: 3px 5px;
+}
+ul.stars li a i:hover {
+    color: #ff9200;
+}
+.product_details {
+    max-width: 640px;
+}
+.bottom_button{
+    margin-top: 20px;
+}
+.bottom_button > button {
+    padding: 6px 13px;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button.buy_now {
+    margin-right: 10px;
+    background-color: #2b71f4;
+    color: #fff;
+    border: transparent;
+    font-size: 15px;
+}
+button.add_cart {
+    background-color: #2b71f40d;
+}
+/* Problem 3 End */
